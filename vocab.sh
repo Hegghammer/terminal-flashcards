@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # add the path to your deck here
-# e.g. ~/apps/vocab/decks/ara_2k.txt
+# e.g. ~/apps/terminal-flashcards/decks/ara_2k.txt
 MYDECK=<path/to/your/deck>
 
 cat $MYDECK | awk -F '\t' '{print $1}' > /tmp/word
